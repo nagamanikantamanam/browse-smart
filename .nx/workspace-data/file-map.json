@@ -1,0 +1,237 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.6.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "17273967392296613641"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "10599815713168421346"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "package.json",
+        "hash": "17753304442797675620"
+      },
+      {
+        "file": "README.md",
+        "hash": "4535199865363920699"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "8900268571896142108"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16798737734475652640"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "1880664178033616490"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4134969992917317260"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3918562478802683688"
+      }
+    ],
+    "projectFileMap": {
+      "browse-smart-extension": [
+        {
+          "file": "extensions/browse-smart-extension/.gitignore",
+          "hash": "3513492345290072647"
+        },
+        {
+          "file": "extensions/browse-smart-extension/README.md",
+          "hash": "6831436746312197211"
+        },
+        {
+          "file": "extensions/browse-smart-extension/eslint.config.js",
+          "hash": "16145672096969245511",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:globals@15.15.0",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:typescript-eslint"
+          ]
+        },
+        {
+          "file": "extensions/browse-smart-extension/package.json",
+          "hash": "10129830299815698460",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@vitejs/plugin-react",
+            "npm:eslint",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:globals@15.15.0",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:@crxjs/vite-plugin",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@mui/material",
+            "npm:@types/chrome",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "extensions/browse-smart-extension/public/manifest.json",
+          "hash": "18399016708797450908"
+        },
+        {
+          "file": "extensions/browse-smart-extension/public/popup.html",
+          "hash": "10923722005207866761"
+        },
+        {
+          "file": "extensions/browse-smart-extension/public/sidepanel.html",
+          "hash": "3716153043818259266"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/background/ad-blocker.ts",
+          "hash": "2465809707972972693"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/background/index.ts",
+          "hash": "290085704610671925"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/background/time-tracker.ts",
+          "hash": "17295897907847367297"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/content/time-tracker.ts",
+          "hash": "17040464621717450634"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/popup/PopUpPage.tsx",
+          "hash": "16649743243595262950",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/popup/components/PopUp.tsx",
+          "hash": "8138382620507264406",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/sidepanel/SidePanel.tsx",
+          "hash": "3314927192948049959",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/sidepanel/components/Tracker.tsx",
+          "hash": "2968487706402055044",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/sidepanel/pages/Home.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/sidepanel/pages/Notes.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/sidepanel/pages/Settings.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/sidepanel/pages/TabManager.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/utils/helpers.ts",
+          "hash": "2045542700795897607"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/utils/hooks.tsx",
+          "hash": "16013328501146359122",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/utils/time-tracker.ts",
+          "hash": "9014932368808058096"
+        },
+        {
+          "file": "extensions/browse-smart-extension/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "extensions/browse-smart-extension/tsconfig.app.json",
+          "hash": "2323919910019125824"
+        },
+        {
+          "file": "extensions/browse-smart-extension/tsconfig.json",
+          "hash": "2365188958523842680"
+        },
+        {
+          "file": "extensions/browse-smart-extension/tsconfig.node.json",
+          "hash": "4200375265648421840"
+        },
+        {
+          "file": "extensions/browse-smart-extension/vite.config.ts",
+          "hash": "18334394790042118346",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react"
+          ]
+        }
+      ]
+    }
+  }
+}
