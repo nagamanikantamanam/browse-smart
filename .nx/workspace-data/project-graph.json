@@ -5,62 +5,25 @@
       "type": "lib",
       "data": {
         "root": "extensions/browse-smart-extension",
-        "projectType": "library",
-        "targets": {
-          "typecheck": {
-            "dependsOn": [
-              "^typecheck"
-            ],
-            "options": {
-              "cwd": "extensions/browse-smart-extension",
-              "command": "echo \"The 'typecheck' target is disabled because one or more project references set 'noEmit: true' in their tsconfig. Remove this property to resolve this issue.\""
-            },
-            "cache": true,
-            "inputs": [
-              "production",
-              "^production",
-              {
-                "externalDependencies": [
-                  "typescript"
-                ]
-              }
-            ],
-            "outputs": [
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/**/*.cjs",
-              "{projectRoot}/**/*.mjs",
-              "{projectRoot}/**/*.jsx",
-              "{projectRoot}/**/*.js.map",
-              "{projectRoot}/**/*.jsx.map",
-              "{projectRoot}/**/*.d.ts",
-              "{projectRoot}/**/*.d.cts",
-              "{projectRoot}/**/*.d.mts",
-              "{projectRoot}/**/*.d.ts.map",
-              "{projectRoot}/**/*.d.cts.map",
-              "{projectRoot}/**/*.d.mts.map",
-              "{projectRoot}/tsconfig.tsbuildinfo"
-            ],
-            "syncGenerators": [
-              "@nx/js:typescript-sync"
-            ],
-            "metadata": {
-              "technologies": [
-                "typescript"
-              ],
-              "description": "Runs type-checking for the project.",
-              "help": {
-                "command": "pnpm exec tsc --build --help",
-                "example": {
-                  "args": [
-                    "--force"
-                  ]
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
+        "name": "browse-smart-extension",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "dev",
+              "build",
+              "lint",
+              "preview"
+            ]
           },
+          "js": {
+            "packageName": "browse-smart-extension",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
           "dev": {
             "executor": "nx:run-script",
             "options": {
@@ -108,24 +71,6 @@
             },
             "configurations": {},
             "parallelism": true
-          }
-        },
-        "name": "browse-smart-extension",
-        "tags": [
-          "npm:private"
-        ],
-        "metadata": {
-          "targetGroups": {
-            "NPM Scripts": [
-              "dev",
-              "build",
-              "lint",
-              "preview"
-            ]
-          },
-          "js": {
-            "packageName": "browse-smart-extension",
-            "isInPackageManagerWorkspaces": true
           }
         },
         "implicitDependencies": []
@@ -5354,26 +5299,6 @@
       },
       {
         "source": "browse-smart-extension",
-        "target": "npm:globals@15.15.0",
-        "type": "static"
-      },
-      {
-        "source": "browse-smart-extension",
-        "target": "npm:eslint-plugin-react-hooks",
-        "type": "static"
-      },
-      {
-        "source": "browse-smart-extension",
-        "target": "npm:eslint-plugin-react-refresh",
-        "type": "static"
-      },
-      {
-        "source": "browse-smart-extension",
-        "target": "npm:typescript-eslint",
-        "type": "static"
-      },
-      {
-        "source": "browse-smart-extension",
         "target": "npm:@types/react",
         "type": "static"
       },
@@ -5394,7 +5319,27 @@
       },
       {
         "source": "browse-smart-extension",
+        "target": "npm:eslint-plugin-react-hooks",
+        "type": "static"
+      },
+      {
+        "source": "browse-smart-extension",
+        "target": "npm:eslint-plugin-react-refresh",
+        "type": "static"
+      },
+      {
+        "source": "browse-smart-extension",
+        "target": "npm:globals@15.15.0",
+        "type": "static"
+      },
+      {
+        "source": "browse-smart-extension",
         "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "browse-smart-extension",
+        "target": "npm:typescript-eslint",
         "type": "static"
       },
       {
@@ -11580,5 +11525,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1743520573620
+  "computedAt": 1743522351134
 }

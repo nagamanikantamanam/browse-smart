@@ -8,9 +8,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         popup: './src/popup/PopUpPage.tsx',
-        background: './src/background/index.ts',
+        background: './src/background-scripts/index.ts',
         sidepanel:'./src/sidepanel/SidePanel.tsx',
-        content:'./src/content/time-tracker.ts/'
+        content:'./src/content-scripts/time-tracker.ts/'
       },
       output: {
         entryFileNames: '[name].js'

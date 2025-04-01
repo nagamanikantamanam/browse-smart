@@ -4,82 +4,6 @@
       "extensions/browse-smart-extension/package.json",
       "nx/core/package-json"
     ],
-    "projectType": [
-      "extensions/browse-smart-extension/tsconfig.node.json",
-      "@nx/js/typescript"
-    ],
-    "targets": [
-      "extensions/browse-smart-extension/tsconfig.app.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.dependsOn": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.options": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.cache": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.inputs": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.outputs": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.syncGenerators": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.executor": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.options.cwd": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.options.command": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.technologies": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.technologies.0": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.description": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.help": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.help.command": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
-    "targets.typecheck.metadata.help.example": [
-      "extensions/browse-smart-extension/tsconfig.json",
-      "@nx/js/typescript"
-    ],
     "name": [
       "extensions/browse-smart-extension/package.json",
       "nx/core/package-json"
@@ -125,6 +49,10 @@
       "nx/core/package-json"
     ],
     "metadata.js.isInPackageManagerWorkspaces": [
+      "extensions/browse-smart-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
       "extensions/browse-smart-extension/package.json",
       "nx/core/package-json"
     ],
